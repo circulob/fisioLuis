@@ -2105,22 +2105,22 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
+		margin: 0 0 0 0;
+		font-size: 0.8em
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			list-style-position: inside;
 		}
-
+	
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
-				padding: 0.5em 0;
+				border-top: solid 1px #efefef;
+				padding: 0.25em 0;
 			}
 
 				ul.alt li:first-child {
@@ -2144,7 +2144,7 @@
 				}
 
 				ul.icons li .icon:before {
-					font-size: 1.5em;
+					font-size: 1em;
 				}
 
 		ul.actions {
@@ -2488,7 +2488,7 @@
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 1em 2em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2572,14 +2572,14 @@
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 1em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
 			border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			padding: 1em 0 0 0;
 		}
 
 			#main > section:first-child {
@@ -2882,7 +2882,7 @@
 				}
 
 					#header h1 br {
-						display: none;
+						/*display: none;*/
 					}
 
 		/* Footer */
@@ -2982,7 +2982,7 @@
 
 			#main {
 				margin: 0;
-				padding: 6em 4em;
+				padding: 1em 2em;
 				width: 100%;
 			}
 
@@ -3023,13 +3023,13 @@
 			}
 
 				ul.labeled-icons li h3 {
-					line-height: 1.75em;
+					line-height: 1em;
 				}
 
 		/* Header */
 
 			#header {
-				padding: 2.25em 1.5em;
+				padding: 2em 1em;
 			}
 
 				#header h1 {
@@ -3045,7 +3045,7 @@
 		/* Main */
 
 			#main {
-				padding: 2.25em 1.5em 0.25em 1.5em;
+				padding: 2em 1.5em 0.25em 1.5em;
 			}
 
 				#main > section {
@@ -3107,11 +3107,11 @@
 		/* Header */
 
 			#header {
-				padding: 4.5em 1.5em;
+				padding: 2em 0.5em;
 			}
 
 				#header h1 br {
-					display: none;
+					/*display: none;*/
 				}
 
 		/* Footer */
