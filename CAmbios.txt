@@ -1,11 +1,5 @@
-listado cambios:
-Actualizacion texto "dolor orofacial" en la seccion de servicios
-Añadido texto "fisioterapia invasiva" en la seccion de servicios.
-Actualizado footer con facebook y mail
-Cambio en la portada, cada servicio tiene un texto corto y un boton para leer mas.
-El comportamiento de ese boton "Seguir leyendo" tiene varias opciones. Ahora mismo cada boton te lleva a un sitio. Habria que elegir qué comportamiento queremos.
-Formateo de texto nuevo con lineas espaciadoras, modo justificado.
-Cambio color botones a verde
-Añadido una foto en "mas informacion" sobre mi.
-Corregido error en mobile con la descripcion
-Corregido error distancia paginas
+Listado cambios:
+Añadido nuevo servicio convenios
+Agrandado boton facebook y mail
+Subida de fuente a 14
+Reducido espacio en la cabecera

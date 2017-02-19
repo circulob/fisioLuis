@@ -2446,7 +2446,7 @@
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 1em 0;
 		}
 
 		.work-item h3 {
@@ -2455,7 +2455,7 @@
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 1em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -2508,7 +2508,7 @@
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 		}
 
 		#header strong, #header b {
@@ -2528,13 +2528,14 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8em;
 		}
 
 /* Footer */
 
 	#footer .icons {
 		margin: 1em 0 0 0;
+		font-size: 2em;
 	}
 
 		#footer .icons a {
@@ -2861,7 +2862,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 	}
@@ -2900,7 +2901,7 @@
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 3em 3em 1em 3em;
 				width: calc(100% - 30%);
 			}
 
@@ -2913,13 +2914,13 @@
 		/* Basic */
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
-				display: none;
+				/*display: none;*/
 			}
 
 		/* List */
 
 			ul.icons li .icon {
-				font-size: 1.25em;
+				font-size: 2em;
 			}
 
 		/* Header */
@@ -3039,18 +3040,18 @@
 		/* Footer */
 
 			#footer {
-				padding: 2.25em 1.5em;
+				padding: 2em 1em;
 			}
 
 		/* Main */
 
 			#main {
-				padding: 2em 1.5em 0.25em 1.5em;
+				padding: 1em 1.5em 0em 1.5em;
 			}
 
 				#main > section {
-					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
+					margin: 2em 0 0 0;
+					padding: 2em 0 0 0;
 				}
 
 		/* Poptrox */
